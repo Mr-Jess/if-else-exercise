@@ -29,19 +29,18 @@ function howLongIsMyString(str) {
 }
 
 function instructorHeight(str) {
-    if(str.length > 20) {
-      return "That's a long string";
-    } else if(str.length >=10 && str.length <=20) {
-      return "That's a regular sized string!";
-    } else if(str.length <= 10) {
-      return "That's a short string!";
-    } else {
-      return str;
+    if(str === "Colin" || str === "colin") {
+      return 62;
+    } 
+    else if(str === "Mesuara" || str === "colin") {
+      return  67;
+    } 
+    else {
+      return "I don't know that instructor";
     }
   }
   
   console.log(instructorHeight(64));
-}
 
 
 
